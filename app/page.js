@@ -54,7 +54,6 @@ export default function Home() {
           <ButtonLogin isLoggedIn={isLoggedIn} name={name} />
         </div>
       </section>
-
       {/* PRICING */}
       <section className="bg-base-200" id="pricing">
         <div className="px-8 py-32 max-w-3xl mx-auto">
@@ -103,7 +102,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* FAQ */}
       <section className="bg-base-200" id="faq">
         <div className="px-8 py-32 max-w-3xl mx-auto">

@@ -7,6 +7,8 @@ export default function Home() {
   const isLoggedIn = true;
   const name = "John";
 
+  console.log(process.env.AUTH_SECRET);
+
   const pricingFeaturesList = [
     "Collect customer feedback",
     "Unlimited boards",
